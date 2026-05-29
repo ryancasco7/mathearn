@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - MathEarning</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <main class="main-content" style="margin-left:0;max-width:1400px;margin:0 auto;padding:2rem">
+    <div class="top-bar">
+      <h1 style="flex:1">Admin Panel</h1>
+      <button class="theme-toggle" type="button">☀️</button>
+      <a href="admin-login.html" class="btn btn-secondary" style="text-decoration:none">Login</a>
+      <button id="admin-logout" class="btn btn-secondary">Logout</button>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="label">Total Users</div>
+        <div class="value" id="admin-total-users">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Total Earnings</div>
+        <div class="value" id="admin-total-earnings">₱0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Total Balance</div>
+        <div class="value" id="admin-total-balance">₱0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Pending Withdrawals</div>
+        <div class="value warning" id="admin-pending-withdrawals">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Total Referrals</div>
+        <div class="value" id="admin-total-referrals">0</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:0.5rem;margin-bottom:1.5rem;flex-wrap:wrap">
+      <button class="btn btn-primary active" data-tab="users">Users</button>
+      <button class="btn btn-secondary" data-tab="withdrawals">Withdrawals</button>
+      <button class="btn btn-secondary" data-tab="referrals">Referrals</button>
+    </div>
+
+    <div id="tab-users" class="tab-panel card">
+      <h2>All Users</h2>
+      <div class="table-wrap">
+        <table id="admin-users-table">
+          <thead>
+            <tr>
+              <th>Name</th><th>Username</th><th>Email</th><th>Balance</th>
+              <th>Earnings</th><th>Questions</th><th>Referrals</th><th>Status</th><th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-withdrawals" class="tab-panel card hidden">
+      <h2>Withdrawal Requests</h2>
+      <div class="table-wrap">
+        <table id="admin-withdrawals-table">
+          <thead>
+            <tr>
+              <th>User</th><th>Name</th><th>GCash</th><th>Amount</th><th>Status</th><th>Date</th><th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="tab-referrals" class="tab-panel card hidden">
+      <h2>Referral Statistics</h2>
+      <div class="table-wrap">
+        <table id="admin-referrals-table">
+          <thead>
+            <tr><th>Referrer</th><th>Device</th><th>Reward</th><th>Date</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

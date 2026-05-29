@@ -1,0 +1,13 @@
+{
+  "name": "mathearning",
+  "version": "1.0.0",
+  "description": "MathEarning - Earn by solving math questions",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "node scripts/free-port.js",
+    "start": "node server.js",
+    "stop": "node scripts/free-port.js"
+  },
+  "keywords": ["math", "earning"],
+  "license": "MIT"
+}

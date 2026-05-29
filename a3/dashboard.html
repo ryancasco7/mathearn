@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - MathEarning</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <button class="menu-toggle" aria-label="Menu">☰</button>
+  <div class="sidebar-overlay"></div>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">MathEarning</div>
+      <ul class="sidebar-nav"></ul>
+      <div class="sidebar-footer">
+        <button id="logout-btn" class="nav-link" type="button">🚪 Logout</button>
+      </div>
+    </aside>
+    <main class="main-content">
+      <div class="top-bar"><button class="theme-toggle" type="button">☀️</button></div>
+      <header class="page-header">
+        <h1 id="user-greeting">Hello</h1>
+        <p>Your earning overview</p>
+      </header>
+      <div class="stats-grid">
+        <div class="stat-card"><div class="label">Balance</div><div class="value" id="stat-balance">₱0.00</div></div>
+        <div class="stat-card"><div class="label">Total Earnings</div><div class="value success" id="stat-earnings">₱0.00</div></div>
+        <div class="stat-card"><div class="label">Questions</div><div class="value" id="stat-questions">0</div></div>
+        <div class="stat-card"><div class="label">Referral Earnings</div><div class="value warning" id="stat-referral-earnings">₱0.00</div></div>
+        <div class="stat-card"><div class="label">Referrals</div><div class="value" id="stat-referral-count">0</div></div>
+      </div>
+      <div class="card">
+        <h2>Daily Earnings (7 days)</h2>
+        <div class="chart-bars" id="daily-chart"></div>
+      </div>
+      <div class="card">
+        <h2>Recent Activity</h2>
+        <ul id="activity-list" style="list-style:none"></ul>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/user-shell.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

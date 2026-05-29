@@ -1,0 +1,37 @@
+[
+  {
+    "token": "122a81eefbb70851b836f0b11641f448df1689491f1f57d256c03dab94650103",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "isAdmin": false,
+    "expiresAt": 1780657913118,
+    "createdAt": "2026-05-29T11:11:53.118Z"
+  },
+  {
+    "token": "e9641127e7c1a4c412b82b8a04df5e5f9f3f49b8b85d0f1be9744f103d2a91dc",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "isAdmin": false,
+    "expiresAt": 1780658834004,
+    "createdAt": "2026-05-29T11:27:14.004Z"
+  },
+  {
+    "token": "02dbc78e3bc4c8fe70b55ed82b84fed94d607500aba93a8a878e7979ced0a2cb",
+    "userId": "admin",
+    "isAdmin": true,
+    "expiresAt": 1780658838521,
+    "createdAt": "2026-05-29T11:27:18.521Z"
+  },
+  {
+    "token": "98555422c8d725273d5989d277c95c036a866cadb979ebd6f7f039227fcde4ef",
+    "userId": "88f7ecd8-97a5-4747-b5d0-d092aae449d5",
+    "isAdmin": false,
+    "expiresAt": 1780659262389,
+    "createdAt": "2026-05-29T11:34:22.389Z"
+  },
+  {
+    "token": "fb508a485e3389ce150e175c577ffaf80ccc346467e32265841cb3fa9348de2e",
+    "userId": "admin",
+    "isAdmin": true,
+    "expiresAt": 1780659262559,
+    "createdAt": "2026-05-29T11:34:22.559Z"
+  }
+]

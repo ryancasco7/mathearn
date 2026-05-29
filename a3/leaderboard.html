@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard - MathEarning</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <button class="menu-toggle" aria-label="Menu">☰</button>
+  <div class="sidebar-overlay"></div>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">MathEarning</div>
+      <ul class="sidebar-nav"></ul>
+      <div class="sidebar-footer">
+        <button id="logout-btn" class="nav-link" type="button">🚪 Logout</button>
+      </div>
+    </aside>
+    <main class="main-content">
+      <div class="top-bar"><button class="theme-toggle" type="button">☀️</button></div>
+      <header class="page-header">
+        <h1>Leaderboard</h1>
+        <p>Top 10 earners</p>
+      </header>
+      <div class="card">
+        <div id="leaderboard-list"></div>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/user-shell.js"></script>
+  <script src="js/leaderboard.js"></script>
+</body>
+</html>

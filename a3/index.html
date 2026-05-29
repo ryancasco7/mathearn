@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MathEarning - Earn by Solving Math</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <section class="hero">
+    <h1>MathEarning</h1>
+    <p>Solve random math questions, earn real rewards. Refer friends, withdraw via GCash. Start earning today.</p>
+    <div class="hero-buttons">
+      <a href="register.html" class="btn btn-primary">Get Started</a>
+      <a href="login.html" class="btn btn-secondary">Login</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>How It Works</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <div class="icon">🔢</div>
+        <h3>Solve Math</h3>
+        <p>Answer unique 4–7 digit math problems. Each correct answer earns ₱0.02 instantly.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">👥</div>
+        <h3>Refer Friends</h3>
+        <p>Share your referral link and earn ₱5.00 per unique device click.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">💸</div>
+        <h3>Withdraw</h3>
+        <p>Cash out to GCash when your balance reaches ₱100 minimum.</p>
+      </div>
+      <div class="feature-item">
+        <div class="icon">🏆</div>
+        <h3>Compete</h3>
+        <p>Climb the leaderboard and track your daily earning statistics.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/api.js"></script>
+  <script src="js/utils.js"></script>
+  <script>
+    Utils.initTheme();
+    if (localStorage.getItem('mathearning_token')) localStorage.removeItem('mathearning_token');
+    Utils.redirectUserIfLoggedIn();
+  </script>
+</body>
+</html>

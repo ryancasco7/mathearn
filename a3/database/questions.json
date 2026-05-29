@@ -1,0 +1,68 @@
+[
+  {
+    "id": "6a014819-db30-4a8f-a043-782deff88ad4",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "key": "6162+49441",
+    "a": 6162,
+    "b": 49441,
+    "operator": "+",
+    "correctAnswer": 55603,
+    "issuedAt": "2026-05-29T11:12:05.784Z",
+    "answered": true,
+    "rewarded": false,
+    "answeredAt": "2026-05-29T11:12:06.677Z",
+    "userAnswer": 99999999,
+    "wasCorrect": false
+  },
+  {
+    "id": "62e7d296-105c-4597-b945-38b22e77daf2",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "key": "2854651-5588",
+    "a": 2854651,
+    "b": 5588,
+    "operator": "-",
+    "correctAnswer": 2849063,
+    "issuedAt": "2026-05-29T11:12:17.843Z",
+    "answered": true,
+    "rewarded": true,
+    "answeredAt": "2026-05-29T11:12:18.275Z",
+    "userAnswer": 2849063,
+    "wasCorrect": true
+  },
+  {
+    "id": "e0a178dd-9aaf-422d-af34-88f5c8b141eb",
+    "userId": "8115aa56-2696-41b5-9755-b9d674b25886",
+    "key": "3905865/53505",
+    "a": 3905865,
+    "b": 53505,
+    "operator": "/",
+    "correctAnswer": 73,
+    "issuedAt": "2026-05-29T11:19:46.118Z",
+    "answered": false,
+    "rewarded": false
+  },
+  {
+    "id": "73de9ed9-947c-434d-9100-8078ec1ec0dd",
+    "userId": "8115aa56-2696-41b5-9755-b9d674b25886",
+    "key": "75787*9504566",
+    "a": 75787,
+    "b": 9504566,
+    "operator": "*",
+    "correctAnswer": 720322543442,
+    "issuedAt": "2026-05-29T11:20:14.126Z",
+    "answered": false,
+    "rewarded": false
+  },
+  {
+    "id": "5d474f6f-03bf-43ad-98e9-9104e5b0fc0f",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "key": "20734560/76230",
+    "a": 20734560,
+    "b": 76230,
+    "operator": "/",
+    "correctAnswer": 272,
+    "issuedAt": "2026-05-29T11:27:14.110Z",
+    "answered": false,
+    "rewarded": false
+  }
+]

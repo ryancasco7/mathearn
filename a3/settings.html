@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings - MathEarning</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <button class="menu-toggle" aria-label="Menu">☰</button>
+  <div class="sidebar-overlay"></div>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">MathEarning</div>
+      <ul class="sidebar-nav"></ul>
+      <div class="sidebar-footer">
+        <button id="logout-btn" class="nav-link" type="button">🚪 Logout</button>
+      </div>
+    </aside>
+    <main class="main-content">
+      <div class="top-bar"><button class="theme-toggle" type="button">☀️</button></div>
+      <header class="page-header">
+        <h1>Settings</h1>
+        <p>Update your account</p>
+      </header>
+      <div class="card" style="max-width:480px">
+        <form id="settings-form">
+          <div class="form-group">
+            <label for="settings-username">Username</label>
+            <input type="text" id="settings-username" disabled>
+          </div>
+          <div class="form-group">
+            <label for="settings-fullName">Full Name</label>
+            <input type="text" id="settings-fullName" required>
+          </div>
+          <div class="form-group">
+            <label for="settings-email">Email</label>
+            <input type="email" id="settings-email" required>
+          </div>
+          <hr style="border:none;border-top:1px solid var(--border);margin:1.5rem 0">
+          <div class="form-group">
+            <label for="settings-current-password">Current Password</label>
+            <input type="password" id="settings-current-password">
+          </div>
+          <div class="form-group">
+            <label for="settings-new-password">New Password</label>
+            <input type="password" id="settings-new-password" minlength="6">
+          </div>
+          <button type="submit" class="btn btn-primary">Save Changes</button>
+        </form>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/user-shell.js"></script>
+  <script src="js/settings.js"></script>
+</body>
+</html>

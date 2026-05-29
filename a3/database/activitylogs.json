@@ -1,0 +1,69 @@
+[
+  {
+    "id": "7de5903d-8ee7-4138-ae35-2c84e2aad87e",
+    "userId": "88f7ecd8-97a5-4747-b5d0-d092aae449d5",
+    "type": "register",
+    "message": "Account created",
+    "meta": {},
+    "timestamp": "2026-05-29T11:34:22.384Z"
+  },
+  {
+    "id": "d45dc177-3cad-4d10-b67d-5424fbe8eaf4",
+    "userId": "f69b3e43-8ecb-4f6a-a4ee-1bab7f7ad9b5",
+    "type": "register",
+    "message": "Account created",
+    "meta": {},
+    "timestamp": "2026-05-29T11:29:51.185Z"
+  },
+  {
+    "id": "2770ff55-94cf-48df-b75f-99ff2c5a8998",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "type": "login",
+    "message": "User logged in",
+    "meta": {},
+    "timestamp": "2026-05-29T11:27:14.010Z"
+  },
+  {
+    "id": "1add26a1-a6d1-47b5-8204-70141fa34fb6",
+    "userId": "8115aa56-2696-41b5-9755-b9d674b25886",
+    "type": "login",
+    "message": "User logged in",
+    "meta": {},
+    "timestamp": "2026-05-29T11:24:50.027Z"
+  },
+  {
+    "id": "357488b6-c1bd-4bfa-8d5e-760cb6937e0c",
+    "userId": "8115aa56-2696-41b5-9755-b9d674b25886",
+    "type": "login",
+    "message": "User logged in",
+    "meta": {},
+    "timestamp": "2026-05-29T11:22:51.684Z"
+  },
+  {
+    "id": "f30c0b21-9640-4da1-b11d-5ce82fc96677",
+    "userId": "8115aa56-2696-41b5-9755-b9d674b25886",
+    "type": "register",
+    "message": "Account created",
+    "meta": {},
+    "timestamp": "2026-05-29T11:15:44.971Z"
+  },
+  {
+    "id": "00d6bd59-1880-4f9d-918e-ff86a176b62e",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "type": "earn",
+    "message": "Earned ₱0.02 from correct answer",
+    "meta": {
+      "questionId": "62e7d296-105c-4597-b945-38b22e77daf2",
+      "earned": 0.02
+    },
+    "timestamp": "2026-05-29T11:12:18.307Z"
+  },
+  {
+    "id": "05a37c65-29ca-482e-973e-d7a3c8e2f69c",
+    "userId": "e54f6fc6-922f-4a35-989c-f845b889b52e",
+    "type": "register",
+    "message": "Account created",
+    "meta": {},
+    "timestamp": "2026-05-29T11:11:53.113Z"
+  }
+]

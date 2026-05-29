@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solve Math - MathEarning</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <button class="menu-toggle" aria-label="Menu">☰</button>
+  <div class="sidebar-overlay"></div>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <div class="sidebar-brand">MathEarning</div>
+      <ul class="sidebar-nav"></ul>
+      <div class="sidebar-footer">
+        <button id="logout-btn" class="nav-link" type="button">🚪 Logout</button>
+      </div>
+    </aside>
+    <main class="main-content">
+      <div class="top-bar"><button class="theme-toggle" type="button">☀️</button></div>
+      <header class="page-header">
+        <h1>Solve & Earn</h1>
+        <p>₱0.02 per correct answer</p>
+      </header>
+      <div class="card">
+        <div class="math-area">
+          <form id="math-form">
+            <div class="math-question" id="math-expression">Loading...</div>
+            <div class="math-input-row">
+              <input type="number" id="math-answer" step="any" placeholder="Your answer" required>
+              <button type="submit" class="btn btn-primary" id="math-submit">Submit</button>
+            </div>
+          </form>
+          <div class="math-feedback" id="math-feedback"></div>
+          <span class="earn-badge hidden" id="earn-badge">+₱0.02</span>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/user-shell.js"></script>
+  <script src="js/math.js"></script>
+  <script src="js/math-page.js"></script>
+</body>
+</html>
